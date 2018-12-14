@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="foo">This is a text</string>
+    <string name="bar">This is another text</string>
+    <string name="baz">This is the third string</string>
+</resources>
+

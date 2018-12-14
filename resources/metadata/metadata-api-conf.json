@@ -1,0 +1,27 @@
+{
+    "labels": {
+        "inventoryNumber": "Inventory Number",
+        "provenance": "Provenance",
+        "descriptionOfTheObject": "Description",
+        "material": "Material",
+        "rights": "Rights",
+        "name": "Name",
+        "dating": "Dating",
+        "type": "Type",
+        "conservationPlace": "Conservation place",
+        "culturalHeritageObject": "Cultural Heritage Object",
+        "culturalHeritageCollection": "Cultural Heritage Collection",
+        "descriptionOfTheCollection": "Description",
+        "conservationPlaceOfTheCollection": "Conservation place",
+        "3dModel": "3D Model",
+        "3dModelType": "Model type",
+        "numberOfVertices": "Number of vertices",
+        "isPartOf": "Is part of",
+        "acquisition": "Acquisition",
+        "date": "Date",
+        "locationOfTheAcquisition": "Location of the acquisition",
+        "institutionAuthor": "Institution author",
+        "acquisitionType": "Acquisition type",
+        "processing": "Processing"
+    }
+}

@@ -1,0 +1,14 @@
+PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
+PREFIX bm: <http://collection.britishmuseum.org/id/object/>
+PREFIX rso: <http://www.researchspace.org/ontology/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+SELECT ?id ?thumbnail ?modelURL ?name ?desc WHERE {
+    ?id crm:P138i_has_representation ?thumbnail ;
+        crm:P138i_has_3D_representation ?modelURL ;
+        crm:has_name ?name .
+    { ?id rso:PX_physical_description ?desc }
+    UNION
+    { ?id crm:P3_has_note ?desc } .
+    VALUES ?id { bm:GAA58897 bm:GAA58895 bm:GAA58912 bm:GAA58908 bm:GAA58907 bm:GAA58922 }
+}

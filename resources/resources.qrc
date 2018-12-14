@@ -1,0 +1,37 @@
+<RCC>
+    <qresource prefix="/">
+        <file>sparql/query-demo-data.rq</file>
+        <file>sparql/query-individual-fragment.rq</file>
+        <file>rdf/partonomy.ttl</file>
+        <file>clipboard/fake-clipboard-reply.json</file>
+        <file>images/ajax-loader.gif</file>
+        <file>images/noun_177503_cc.png</file>
+        <file>images/noun_320133_cc.png</file>
+        <file>images/noun_320139_cc.png</file>
+        <file>images/noun_319823_cc.png</file>
+        <file>images/noun_1202927_cc.png</file>
+        <file>images/noun_177497_cc.png</file>
+        <file>images/gravitate-logo-128px.png</file>
+        <file>images/noun_1070424_cc.png</file>
+        <file>datasets/salamis.txt</file>
+        <file>datasets/ayia_irini.txt</file>
+        <file>datasets/gath_jars.txt</file>
+        <file>datasets/naukratis.txt</file>
+        <file>images/noun_326860_cc.png</file>
+        <file>images/noun_236332_cc.png</file>
+        <file>images/noun_148012_cc.png</file>
+        <file>images/noun_148014_cc.png</file>
+        <file>images/noun_148032_cc.png</file>
+        <file>help/helpstrings.xml</file>
+        <file>images/gravitate-logo-straight-64px.png</file>
+        <file>images/noun_1263005_cc.png</file>
+        <file>images/noun_89606.png</file>
+        <file>demo/D_292_100K_Features.json</file>
+        <file>demo/expectedFragmentsOut_withUrl.json</file>
+        <file>metadata/extra-metadata.csv</file>
+        <file>metadata/metadata-api-conf.json</file>
+        <file>images/noun_Settings_696006.png</file>
+        <file>demo/AN1909_837_100K_Features.json</file>
+        <file>demo/1909_310_2_100K_Features.json</file>
+    </qresource>
+</RCC>

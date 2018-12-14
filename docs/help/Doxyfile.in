@@ -1,0 +1,115 @@
+# Doxyfile 1.8.11
+
+# This file describes the settings to be used by the documentation system
+# doxygen (www.doxygen.org) for a project.
+#
+# All text after a double hash (##) is considered a comment and is placed in
+# front of the TAG it is preceding.
+#
+# All text after a single hash (#) is considered a comment and will be ignored.
+# The format is:
+# TAG = value [value, ...]
+# For lists, items can also be appended using:
+# TAG += value [value, ...]
+# Values that contain spaces should be placed between quotes (\" \").
+
+#---------------------------------------------------------------------------
+# Project related configuration options
+#---------------------------------------------------------------------------
+
+DOXYFILE_ENCODING      = UTF-8
+PROJECT_NAME           = "GRAVITATE Desktop Client Manual"
+QUIET             = NO
+WARNINGS          = NO
+DISABLE_INDEX     = YES
+GENERATE_TREEVIEW = NO
+EXTRACT_ALL       = NO
+EXTRACT_PRIVATE   = NO
+GENERATE_MAN      = NO
+GENERATE_LATEX    = NO
+GENERATE_HTML     = YES
+GENERATE_HTMLHELP = NO
+GENERATE_RTF      = NO
+GENERATE_XML      = NO
+HTML_COLORSTYLE_SAT = 0
+ENABLED_SECTIONS  = logo_on
+ENABLE_PREPROCESSING = YES
+CASE_SENSE_NAMES  = NO
+IMAGE_PATH        = "@CMAKE_CURRENT_LIST_DIR@/docs/images" \
+                    "@CMAKE_CURRENT_LIST_DIR@/docs/feature-recognition_files" \
+                    "@CMAKE_CURRENT_LIST_DIR@/docs/geom-char_files"
+INPUT             = "@CMAKE_CURRENT_LIST_DIR@/docs"
+FILE_PATTERNS     = *.md
+OUTPUT_DIRECTORY  = "@CMAKE_CURRENT_BINARY_DIR@"
+#EXAMPLE_PATH      = ../examples
+RECURSIVE         = NO
+TAGFILES          =
+ALLEXTERNALS      = NO
+PERL_PATH         = /usr/bin/perl
+SEARCHENGINE      = NO
+PDF_HYPERLINKS    = YES
+USE_PDFLATEX      = YES
+STRIP_CODE_COMMENTS = NO
+
+
+# HTML options
+HTML_HEADER       = "@CMAKE_CURRENT_LIST_DIR@/manual_header.html"
+HTML_FOOTER       = "@CMAKE_CURRENT_LIST_DIR@/manual_footer.html"
+HTML_STYLESHEET   = "@CMAKE_CURRENT_LIST_DIR@/help_manual.css"
+
+GENERATE_QHP           = YES
+
+# If the QHG_LOCATION tag is specified, the QCH_FILE tag can be used to specify
+# the file name of the resulting .qch file. The path specified is relative to
+# the HTML output folder.
+# This tag requires that the tag GENERATE_QHP is set to YES.
+
+QCH_FILE               =  "../@QCH_FILE@"
+
+# The QHP_NAMESPACE tag specifies the namespace to use when generating Qt Help
+# Project output. For more information please see Qt Help Project / Namespace
+# (see: http://qt-project.org/doc/qt-4.8/qthelpproject.html#namespace).
+# The default value is: org.doxygen.Project.
+# This tag requires that the tag GENERATE_QHP is set to YES.
+
+QHP_NAMESPACE          = it.cnr.imati.ge.gravitate
+
+# The QHP_VIRTUAL_FOLDER tag specifies the namespace to use when generating Qt
+# Help Project output. For more information please see Qt Help Project / Virtual
+# Folders (see: http://qt-project.org/doc/qt-4.8/qthelpproject.html#virtual-
+# folders).
+# The default value is: doc.
+# This tag requires that the tag GENERATE_QHP is set to YES.
+
+QHP_VIRTUAL_FOLDER     = doc
+
+# If the QHP_CUST_FILTER_NAME tag is set, it specifies the name of a custom
+# filter to add. For more information please see Qt Help Project / Custom
+# Filters (see: http://qt-project.org/doc/qt-4.8/qthelpproject.html#custom-
+# filters).
+# This tag requires that the tag GENERATE_QHP is set to YES.
+
+QHP_CUST_FILTER_NAME   =
+
+# The QHP_CUST_FILTER_ATTRS tag specifies the list of the attributes of the
+# custom filter to add. For more information please see Qt Help Project / Custom
+# Filters (see: http://qt-project.org/doc/qt-4.8/qthelpproject.html#custom-
+# filters).
+# This tag requires that the tag GENERATE_QHP is set to YES.
+
+QHP_CUST_FILTER_ATTRS  =
+
+# The QHP_SECT_FILTER_ATTRS tag specifies the list of the attributes this
+# project's filter section matches. Qt Help Project / Filter Attributes (see:
+# http://qt-project.org/doc/qt-4.8/qthelpproject.html#filter-attributes).
+# This tag requires that the tag GENERATE_QHP is set to YES.
+
+QHP_SECT_FILTER_ATTRS  =
+
+# The QHG_LOCATION tag can be used to specify the location of Qt's
+# qhelpgenerator. If non-empty doxygen will try to run qhelpgenerator on the
+# generated .qhp file.
+# This tag requires that the tag GENERATE_QHP is set to YES.
+
+QHG_LOCATION           = "@QT_QHELPGENERATOR_EXECUTABLE@"
+

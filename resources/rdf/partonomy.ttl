@@ -1,0 +1,1030 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix gra: <http://gravitate-project.eu/scheme/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://gravitate-project.eu/scheme> a owl:Ontology ;
+    owl:imports <http://www.w3.org/TR/skos-reference/skos-owl1-dl.rdf> .
+
+gra:Animal_frieze a skos:Concept ;
+    skos:broader gra:Decoration ;
+    skos:prefLabel "Animal frieze"@en .
+
+gra:Ankle a skos:Concept ;
+    skos:broader gra:Foot ;
+    skos:prefLabel "Ankle"@en .
+
+gra:Applied a skos:Concept ;
+    skos:broader gra:Technique ;
+    skos:prefLabel "Applied"@en .
+
+gra:Aulos a skos:Concept ;
+    skos:broader gra:Music_instrument ;
+    skos:editorialNote "*** Aulos or flute" ;
+    skos:prefLabel "Aulos"@en .
+
+gra:Band a skos:Concept ;
+    skos:broader gra:Line ;
+    skos:editorialNote "This class describes longitudinal, rectangular shape that can either constitute individual ornament or serve as a background for other decorative elements. Rendered by various techniques bands might resemble straps, tapes or belts." ;
+    skos:prefLabel "Band"@en .
+
+gra:Bead a skos:Concept ;
+    skos:broader gra:Decoration ;
+    skos:editorialNote "***" ;
+    skos:prefLabel "Bead"@en .
+
+gra:Belt a skos:Concept ;
+    skos:broader gra:Clothing_element ;
+    skos:editorialNote "***" ;
+    skos:prefLabel "Belt"@en .
+
+gra:Bird a skos:Concept ;
+    skos:broader gra:Animal_figure ;
+    skos:prefLabel "Bird"@en .
+
+gra:Black a skos:Concept ;
+    skos:broader gra:Colour ;
+    skos:prefLabel "Black"@en .
+
+gra:Bow a skos:Concept ;
+    skos:broader gra:Sandal_strap ;
+    skos:prefLabel "Bow"@en .
+
+gra:Bud a skos:Concept ;
+    skos:broader gra:Flower ;
+    skos:prefLabel "Bud"@en .
+
+gra:Buff a skos:Concept ;
+    skos:broader gra:Colour ;
+    skos:prefLabel "Buff"@en .
+
+gra:Button a skos:Concept ;
+    skos:broader gra:Decoration ;
+    skos:prefLabel "Button"@en .
+
+gra:C_pattern a skos:Concept ;
+    skos:broader gra:Pattern ;
+    skos:prefLabel "C pattern"@en .
+
+gra:Cattle a skos:Concept ;
+    skos:broader gra:Animal_figure ;
+    skos:editorialNote "***" ;
+    skos:prefLabel "Cattle"@en .
+
+gra:Cheek a skos:Concept ;
+    skos:broader gra:Head ;
+    skos:prefLabel "Cheek"@en .
+
+gra:Chequer a skos:Concept ;
+    skos:broader gra:Pattern_of_squares ;
+    skos:editorialNote "This class describes a pattern of squares, typically alternately coloured." ;
+    skos:prefLabel "Chequer"@en .
+
+gra:Chest a skos:Concept ;
+    skos:broader gra:Trunk ;
+    skos:prefLabel "Chest"@en .
+
+gra:Chin a skos:Concept ;
+    skos:broader gra:Head ;
+    skos:prefLabel "Chin"@en .
+
+gra:Circle a skos:Concept ;
+    skos:broader gra:Geometrical_figure ;
+    skos:prefLabel "Circle"@en .
+
+gra:Clenched_fist a skos:Concept ;
+    skos:broader gra:Hand ;
+    skos:prefLabel "Clenched fist"@en .
+
+gra:Cloak a skos:Concept ;
+    skos:broader gra:Clothing ;
+    skos:editorialNote "*** This class describes representations of the upper garment of the figure; it is usually draped over both shoulders of the statue and the right arm might be tucked under the upper fold; the frequently is bordered with a fringe. *** In Ayia Irini the element is generally identified as \"shawl\"" ;
+    skos:prefLabel "Cloak"@en .
+
+gra:Coil_earing a skos:Concept ;
+    skos:broader gra:Earing ;
+    skos:prefLabel "Coil earing"@en .
+
+gra:Concentric_pattern a skos:Concept ;
+    skos:broader gra:Pattern ;
+    skos:prefLabel "Concentric pattern"@en .
+
+gra:Conical_helmet a skos:Concept ;
+    skos:broader gra:Helmet ;
+    skos:editorialNote "*** Conical helmet" ;
+    skos:prefLabel "Conical helmet"@en .
+
+gra:Cord a skos:Concept ;
+    skos:broader gra:Clothing_element ;
+    skos:editorialNote "This class describes representations of cords decorating statues' garments often ending with a tassel. ExG_Cord is a subclass of general category ExG_Clothing and some of its subclasses as it might appear on any or each of the garments." ;
+    skos:prefLabel "Cord"@en .
+
+gra:Cream a skos:Concept ;
+    skos:broader gra:Colour ;
+    skos:prefLabel "Cream"@en .
+
+gra:Cuirass a skos:Concept ;
+    skos:broader gra:Clothing ;
+    skos:editorialNote "This class describes representations of short-sleeved or sleeveless garments resembling also linen corslets or jerkins; usually it is covered with painted decoration and terminated with a fringe" ;
+    skos:prefLabel "Cuirass"@en .
+
+gra:Earflap a skos:Concept ;
+    skos:broader gra:Cap ;
+    skos:editorialNote "This class describes representations of flaps attached to headgear extending it downwards. In case of the Salamis statues those might be interpreted also as ExG_Sideburn." ;
+    skos:prefLabel "Earflap"@en .
+
+gra:Edge a skos:Concept ;
+    skos:broader gra:Clothing_element ;
+    skos:prefLabel "Edge"@en .
+
+gra:Eight_petals a skos:Concept ;
+    skos:broader gra:Flower ;
+    skos:prefLabel "Eight petals"@en .
+
+gra:Eye_decor a skos:Concept ;
+    skos:broader gra:Decoration ;
+    skos:editorialNote "***" ;
+    skos:prefLabel "Eye decor"@en .
+
+gra:Eyeball a skos:Concept ;
+    skos:broader gra:Eye ;
+    skos:prefLabel "Eyeball"@en .
+
+gra:Eyebrow a skos:Concept ;
+    skos:broader gra:Facial_hair ;
+    skos:prefLabel "Eyebrow"@en .
+
+gra:Eyelid a skos:Concept ;
+    skos:broader gra:Eye ;
+    skos:prefLabel "Eyelid"@en .
+
+gra:Feathered_pattern a skos:Concept ;
+    skos:broader gra:Linear_pattern ;
+    skos:prefLabel "Feathered pattern"@en .
+
+gra:Flattened_helmet a skos:Concept ;
+    skos:broader gra:Helmet ;
+    skos:editorialNote "*** Flattened helmet" ;
+    skos:prefLabel "Flattened helmet"@en .
+
+gra:Floral_band a skos:Concept ;
+    skos:broader gra:Pattern ;
+    skos:editorialNote "***" ;
+    skos:prefLabel "Floral band"@en .
+
+gra:Forearm a skos:Concept ;
+    skos:broader gra:Upper_limb ;
+    skos:prefLabel "Forearm"@en .
+
+gra:Forehead a skos:Concept ;
+    skos:broader gra:Head ;
+    skos:prefLabel "Forehead"@en .
+
+gra:Fringe_of_hair a skos:Concept ;
+    skos:broader gra:Head_hair ;
+    skos:prefLabel "Fringe of hair"@en .
+
+gra:Generic_area a skos:Concept ;
+    skos:broader crm:E55_Type ;
+    skos:editorialNote "Undefined area which contains some information, e.g. paint, color, undefined, decoration, attire. It can be 2D or 3D. Eliminata \"Plain\" sotto Decoration per creare questa classe Generic Area che corrisponde." ;
+    skos:prefLabel "Generic area"@en .
+
+gra:Goatee a skos:Concept ;
+    skos:broader gra:Beard ;
+    skos:prefLabel "Goatee"@en .
+
+gra:Great_toe a skos:Concept ;
+    skos:broader gra:Toe ;
+    skos:prefLabel "Great toe"@en .
+
+gra:Groove a skos:Concept ;
+    skos:broader gra:Line ;
+    skos:prefLabel "Groove"@en .
+
+gra:Guilloche a skos:Concept ;
+    skos:broader gra:Pattern ;
+    skos:editorialNote "Ei fu Twisting_lines_pattern- Forma a metà tra treccia e spirale. Trovare un nome che la identifichi." ;
+    skos:prefLabel "Guilloche"@en .
+
+gra:Hand_made a skos:Concept ;
+    skos:broader gra:Technique ;
+    skos:editorialNote "This class describes artefacts or their parts made by hand." ;
+    skos:prefLabel "Hand made"@en .
+
+gra:Hatched_fringe a skos:Concept ;
+    skos:broader gra:Fringe ;
+    skos:prefLabel "Hatched fringe"@en .
+
+gra:Headband a skos:Concept ;
+    skos:broader gra:Headgear ;
+    skos:editorialNote "This class comprises representations of headbands made of various materials; a headband consists of a loop placed on the statue's hair leaving the tip of the head visible. ExG_Headband is also a subclass of ExG_Band." ;
+    skos:prefLabel "Headband"@en .
+
+gra:Herring_bone a skos:Concept ;
+    skos:broader gra:Linear_pattern ;
+    skos:prefLabel "Herring bone"@en .
+
+gra:Human_figure a skos:Concept ;
+    skos:broader gra:Decoration ;
+    skos:prefLabel "Human figure"@en .
+
+gra:Index_finger a skos:Concept ;
+    skos:broader gra:Finger ;
+    skos:prefLabel "Index finger"@en .
+
+gra:Iris a skos:Concept ;
+    skos:broader gra:Eye ;
+    skos:prefLabel "Iris"@en .
+
+gra:Kid_goat a skos:Concept ;
+    skos:broader gra:Accessory ;
+    skos:editorialNote "This class describes not always easily identifiable quadruped held be the Salamis votary statues; it might resemble a kid goat or a lamb." ;
+    skos:prefLabel "Kid goat"@en .
+
+gra:Knapsack a skos:Concept ;
+    skos:broader gra:Accessory ;
+    skos:editorialNote "*** Knapsack" ;
+    skos:prefLabel "Knapsack"@en .
+
+gra:Knee a skos:Concept ;
+    skos:broader gra:Lower_limb ;
+    skos:prefLabel "Knee"@en .
+
+gra:Ladder_pattern a skos:Concept ;
+    skos:broader gra:Linear_pattern ;
+    skos:editorialNote "*** Schema composed of two lines perpendicularly crossed by one or two horizontal lines, like a ladder." ;
+    skos:prefLabel "Ladder pattern"@en .
+
+gra:Line_pattern a skos:Concept ;
+    skos:broader gra:Linear_pattern ;
+    skos:editorialNote "*** Group of lines" ;
+    skos:prefLabel "Line pattern"@en .
+
+gra:Lion a skos:Concept ;
+    skos:broader gra:Animal_figure ;
+    skos:prefLabel "Lion"@en .
+
+gra:Long_toe a skos:Concept ;
+    skos:broader gra:Toe ;
+    skos:prefLabel "Long toe"@en .
+
+gra:Lotus a skos:Concept ;
+    skos:broader gra:Flower ;
+    skos:prefLabel "Lotus"@en .
+
+gra:Lower_lip a skos:Concept ;
+    skos:broader gra:Mouth ;
+    skos:prefLabel "Lower lip"@en .
+
+gra:Meander a skos:Concept ;
+    skos:broader gra:Decoration ;
+    skos:editorialNote "***" ;
+    skos:prefLabel "Meander"@en .
+
+gra:Middle_finger a skos:Concept ;
+    skos:broader gra:Finger ;
+    skos:prefLabel "Middle finger"@en .
+
+gra:Middle_toe a skos:Concept ;
+    skos:broader gra:Toe ;
+    skos:prefLabel "Middle toe"@en .
+
+gra:Mould_made a skos:Concept ;
+    skos:broader gra:Technique ;
+    skos:editorialNote "Mould-made usually refers to making a complete object (e.g. a terracotta figurine or head-vase) or component thereof (e.g. a protome made separated and attached to a pot) in a mould. For instances where moulds are used to provide a shape that is then worked up by the maker, both Techniques mould-made and hand-modelled should be assigned." ;
+    skos:prefLabel "Mould made"@en .
+
+gra:Moustache a skos:Concept ;
+    skos:broader gra:Facial_hair ;
+    skos:prefLabel "Moustache"@en .
+
+gra:Mythological_scene a skos:Concept ;
+    skos:broader gra:Decoration ;
+    skos:editorialNote "Naukratis?" ;
+    skos:prefLabel "Mythological scene"@en .
+
+gra:Neck a skos:Concept ;
+    skos:broader gra:Head ;
+    skos:prefLabel "Neck"@en .
+
+gra:Necklace a skos:Concept ;
+    skos:broader gra:Jewellery ;
+    skos:prefLabel "Necklace"@en .
+
+gra:Nose_depression a skos:Concept ;
+    skos:broader gra:Nose ;
+    skos:prefLabel "Nose depression"@en .
+
+gra:Oblique_pattern a skos:Concept ;
+    skos:broader gra:Linear_pattern ;
+    skos:editorialNote "*** guarda caso Naukratis" ;
+    skos:prefLabel "Oblique pattern"@en .
+
+gra:Open_palm a skos:Concept ;
+    skos:broader gra:Hand ;
+    skos:prefLabel "Open palm"@en .
+
+gra:Orange a skos:Concept ;
+    skos:broader gra:Colour ;
+    skos:prefLabel "Orange"@en .
+
+gra:Painted a skos:Concept ;
+    skos:broader gra:Technique ;
+    skos:prefLabel "Painted"@en .
+
+gra:Palmette a skos:Concept ;
+    skos:broader gra:Flower ;
+    skos:editorialNote "***" ;
+    skos:prefLabel "Palmette"@en .
+
+gra:Pattern_of_chevrons a skos:Concept ;
+    skos:broader gra:Pattern ;
+    skos:prefLabel "Pattern of chevrons"@en .
+
+gra:Pattern_of_circles a skos:Concept ;
+    skos:broader gra:Pattern ;
+    skos:prefLabel "Pattern of circles"@en .
+
+gra:Pattern_of_curves a skos:Concept ;
+    skos:broader gra:Pattern ;
+    skos:editorialNote "*** vedi Naukratis (gruppo 13)" ;
+    skos:prefLabel "Pattern of curves"@en .
+
+gra:Pattern_of_lozenges a skos:Concept ;
+    skos:broader gra:Pattern_of_rectangles ;
+    skos:editorialNote "*** Pattern of lozenges" ;
+    skos:prefLabel "Pattern of lozenges"@en .
+
+gra:Pattern_of_scales a skos:Concept ;
+    skos:broader gra:Pattern ;
+    skos:editorialNote "This class describes shapes resembling scales or horseshoe pattern." ;
+    skos:prefLabel "Pattern of scales"@en .
+
+gra:Pattern_of_spirals a skos:Concept ;
+    skos:broader gra:Pattern ;
+    skos:prefLabel "Pattern of spirals"@en .
+
+gra:Pattern_of_triangles a skos:Concept ;
+    skos:broader gra:Pattern ;
+    skos:prefLabel "Pattern of triangles"@en .
+
+gra:Phorbeia a skos:Concept ;
+    skos:broader gra:Music_instrument ;
+    skos:editorialNote "*** Phorbeia" ;
+    skos:prefLabel "Phorbeia"@en .
+
+gra:Pierced_hole a skos:Concept ;
+    skos:broader gra:Earlobe ;
+    skos:prefLabel "Pierced hole"@en .
+
+gra:Pink a skos:Concept ;
+    skos:broader gra:Colour ;
+    skos:prefLabel "Pink"@en .
+
+gra:Purple a skos:Concept ;
+    skos:broader gra:Colour ;
+    skos:prefLabel "Purple"@en .
+
+gra:Radial_pattern a skos:Concept ;
+    skos:broader gra:Linear_pattern ;
+    skos:editorialNote "*** Pattern constituted of lines (black , or red and black) starting from a centre and resembling the radii of a circle. It is associated with rounded objects (e.g. tympanon, tambourine)." ;
+    skos:prefLabel "Radial pattern"@en .
+
+gra:Red a skos:Concept ;
+    skos:broader gra:Colour ;
+    skos:prefLabel "Red"@en .
+
+gra:Ridge a skos:Concept ;
+    skos:broader gra:Line ;
+    skos:prefLabel "Ridge"@en .
+
+gra:Ring_finger a skos:Concept ;
+    skos:broader gra:Finger ;
+    skos:prefLabel "Ring finger"@en .
+
+gra:Ring_toe a skos:Concept ;
+    skos:broader gra:Toe ;
+    skos:prefLabel "Ring toe"@en .
+
+gra:Rope_like_line a skos:Concept ;
+    skos:broader gra:Beard ;
+    skos:prefLabel "Rope like line"@en .
+
+gra:Rosette a skos:Concept ;
+    skos:broader gra:Flower ;
+    skos:prefLabel "Rosette"@en .
+
+gra:Rosette_earing a skos:Concept ;
+    skos:broader gra:Earing ;
+    skos:prefLabel "Rosette earing"@en .
+
+gra:Row a skos:Concept ;
+    skos:broader gra:Line ;
+    skos:editorialNote "This class describes a number of elements in more or less straight line, a frieze; it signifies rather an abstract arrangement than actual band with linear borders." ;
+    skos:prefLabel "Row"@en .
+
+gra:Sandal_sole a skos:Concept ;
+    skos:broader gra:Sandal ;
+    skos:prefLabel "Sandal sole"@en .
+
+gra:Shield a skos:Concept ;
+    skos:broader gra:Accessory ;
+    skos:editorialNote "*** Shield" ;
+    skos:prefLabel "Shield"@en .
+
+gra:Shoulder a skos:Concept ;
+    skos:broader gra:Upper_limb ;
+    skos:prefLabel "Shoulder"@en .
+
+gra:Sideburn a skos:Concept ;
+    skos:broader gra:Facial_hair ;
+    skos:prefLabel "Sideburn"@en .
+
+gra:Six_petals a skos:Concept ;
+    skos:broader gra:Flower ;
+    skos:prefLabel "Six petals"@en .
+
+gra:Sleeve a skos:Concept ;
+    skos:broader gra:Clothing_element ;
+    skos:prefLabel "Sleeve"@en .
+
+gra:Slipped a skos:Concept ;
+    skos:broader gra:Technique ;
+    skos:editorialNote "Slipped applies to where the surface has been covered (either dipped or block covered) with a fine clay ('slip') to give it extra fineness of appearance or to change its colour, particularly if then covered with a transparent glaze and then incised (sgraffiato technique). Slip-painted is a term typically used where a coloured slip has been applied to create decoration but this term is not used for ceramics in the Greek and Roman Department, where the term 'slipped is used when the object is slipped but otherwise undecorated, and the term painted is used in the sense of decorated. The term slip-painted should be avoided in this context to avoid confusion between 'painted' and 'slipped' because what is usually referred to as paint could be described as a slip in terms of composition, or vice versa." ;
+    skos:prefLabel "Slipped"@en .
+
+gra:Slit a skos:Concept ;
+    skos:broader gra:Mouth ;
+    skos:prefLabel "Slit"@en .
+
+gra:Small_finger a skos:Concept ;
+    skos:broader gra:Finger ;
+    skos:prefLabel "Small finger"@en .
+
+gra:Small_toe a skos:Concept ;
+    skos:broader gra:Toe ;
+    skos:prefLabel "Small toe"@en .
+
+gra:Smooth_fringe a skos:Concept ;
+    skos:broader gra:Fringe ;
+    skos:prefLabel "Smooth fringe"@en .
+
+gra:Solomon_knot a skos:Concept ;
+    skos:broader gra:Decoration ;
+    skos:editorialNote "***" ;
+    skos:prefLabel "Solomon knot"@en .
+
+gra:Speck a skos:Concept ;
+    skos:broader gra:Decoration ;
+    skos:editorialNote "or dot (riferito a technique Stippled)" ;
+    skos:prefLabel "Speck"@en .
+
+gra:Sphinx a skos:Concept ;
+    skos:broader gra:Mythological_figure ;
+    skos:prefLabel "Sphinx"@en .
+
+gra:Spiral a skos:Concept ;
+    skos:broader gra:Geometrical_figure ;
+    skos:prefLabel "Spiral"@en .
+
+gra:Square a skos:Concept ;
+    skos:broader gra:Geometrical_figure ;
+    skos:editorialNote "***" ;
+    skos:prefLabel "Square"@en .
+
+gra:Stamped a skos:Concept ;
+    skos:broader gra:Technique ;
+    skos:editorialNote "This class describes is stamped or impressed decoration surfaces of objects." ;
+    skos:prefLabel "Stamped"@en .
+
+gra:Stippled a skos:Concept ;
+    skos:broader gra:Incised ;
+    skos:editorialNote "This class describes short incisions in shape of dots or specks." ;
+    skos:prefLabel "Stippled"@en .
+
+gra:Striped_band a skos:Concept ;
+    skos:broader gra:Linear_pattern ;
+    skos:editorialNote "This class describes a painted pattern characteristic for ancient Cypriot statues: a band bordered with black and repeating motif of three perpendicular stripes." ;
+    skos:prefLabel "Striped band"@en .
+
+gra:Sword a skos:Concept ;
+    skos:broader gra:Accessory ;
+    skos:editorialNote "*** Sword" ;
+    skos:prefLabel "Sword"@en .
+
+gra:Sword_belt a skos:Concept ;
+    skos:broader gra:Accessory ;
+    skos:editorialNote "This class comprises representations of sword holster belts; on ancient Cypriot statues they are usually depicted as raised flat straps on the trunk, often painted red. Being technically a raised strap, ExG_Sword belt is also a subclass of ExG_Band." ;
+    skos:prefLabel "Sword belt"@en .
+
+gra:Tambourine a skos:Concept ;
+    skos:broader gra:Music_instrument ;
+    skos:editorialNote "*** Tambourine or tympanon" ;
+    skos:prefLabel "Tambourine"@en .
+
+gra:Tassel a skos:Concept ;
+    skos:broader gra:Clothing_element ;
+    skos:prefLabel "Tassel"@en .
+
+gra:Temple a skos:Concept ;
+    skos:broader gra:Head ;
+    skos:prefLabel "Temple"@en .
+
+gra:Thigh a skos:Concept ;
+    skos:broader gra:Lower_limb ;
+    skos:prefLabel "Thigh"@en .
+
+gra:Thumb a skos:Concept ;
+    skos:broader gra:Finger ;
+    skos:prefLabel "Thumb"@en .
+
+gra:Tip_of_cap a skos:Concept ;
+    skos:broader gra:Cap ;
+    skos:editorialNote "This class describes pointed rounded end that sometimes appear on the top of the cap." ;
+    skos:prefLabel "Tip of cap"@en .
+
+gra:Triangle a skos:Concept ;
+    skos:broader gra:Geometrical_figure ;
+    skos:prefLabel "Triangle"@en .
+
+gra:Tunic a skos:Concept ;
+    skos:broader gra:Clothing ;
+    skos:editorialNote "This class describes depictions of light garment resembling tunic or Greek chiton; it usually constitutes the long under garment of the statue; sometimes it is bordered with a red stripe or/ and extends below the hem supporting the attachment of the feet" ;
+    skos:prefLabel "Tunic"@en .
+
+gra:Turban a skos:Concept ;
+    skos:broader gra:Headgear ;
+    skos:editorialNote "This class comprises depictions of light, cloth-made and draped headwear resembling turban." ;
+    skos:prefLabel "Turban"@en .
+
+gra:Upper_lip a skos:Concept ;
+    skos:broader gra:Mouth ;
+    skos:prefLabel "Upper lip"@en .
+
+gra:V_pattern a skos:Concept ;
+    skos:broader gra:Linear_pattern ;
+    skos:editorialNote "*** Pattern constituted of a series of V lines (black or black and red) depicted vertically." ;
+    skos:prefLabel "V pattern"@en .
+
+gra:Vase a skos:Concept ;
+    skos:broader gra:Accessory ;
+    skos:editorialNote "*** Small vase or rython" ;
+    skos:prefLabel "Vase"@en .
+
+gra:Waist a skos:Concept ;
+    skos:broader gra:Trunk ;
+    skos:prefLabel "Waist"@en .
+
+gra:Wheel_made a skos:Concept ;
+    skos:broader gra:Technique ;
+    skos:editorialNote "Wheel-made is an archaeological term used for any vessels thrown wholly or partly on a wheel, with no distinction between fast and slow." ;
+    skos:prefLabel "Wheel made"@en .
+
+gra:White a skos:Concept ;
+    skos:broader gra:Colour ;
+    skos:prefLabel "White"@en .
+
+gra:Wig_shaped a skos:Concept ;
+    skos:broader gra:Hairstyle ;
+    skos:editorialNote "*** Wig-shaped hair, typical of a specific Type of Ayia Irini small statuettes." ;
+    skos:prefLabel "Wig shaped"@en .
+
+gra:Wreath a skos:Concept ;
+    skos:broader gra:Headgear ;
+    skos:editorialNote "This class comprises representations of vegetal, flowery or verdant wreaths placed on the statue's hair." ;
+    skos:prefLabel "Wreath"@en .
+
+gra:Yellow a skos:Concept ;
+    skos:broader gra:Colour ;
+    skos:prefLabel "Yellow"@en .
+
+gra:Curly a skos:Concept ;
+    skos:broader gra:Beard_style,
+        gra:Hairstyle ;
+    skos:prefLabel "Curly"@en .
+
+gra:Ear a skos:Concept ;
+    skos:broader gra:Head ;
+    skos:narrower gra:Earlobe ;
+    skos:prefLabel "Ear"@en .
+
+gra:Earlobe a skos:Concept ;
+    skos:broader gra:Ear ;
+    skos:narrower gra:Pierced_hole ;
+    skos:prefLabel "Earlobe"@en .
+
+gra:Footwear a skos:Concept ;
+    skos:broader gra:Attire ;
+    skos:narrower gra:Sandal ;
+    skos:prefLabel "Footwear"@en .
+
+gra:Hatched a skos:Concept ;
+    skos:broader gra:Beard_style,
+        gra:Hairstyle ;
+    skos:editorialNote "It renames Plaited" ;
+    skos:prefLabel "Hatched"@en .
+
+gra:Incised a skos:Concept ;
+    skos:broader gra:Technique ;
+    skos:narrower gra:Stippled ;
+    skos:prefLabel "Incised"@en .
+
+gra:Layered a skos:Concept ;
+    skos:broader gra:Beard_style,
+        gra:Hairstyle ;
+    skos:prefLabel "Layered"@en .
+
+gra:Mythological_figure a skos:Concept ;
+    skos:broader gra:Decoration ;
+    skos:narrower gra:Sphinx ;
+    skos:prefLabel "Mythological figure"@en .
+
+gra:Nose a skos:Concept ;
+    skos:broader gra:Head ;
+    skos:narrower gra:Nose_depression ;
+    skos:prefLabel "Nose"@en .
+
+gra:Pattern_of_squares a skos:Concept ;
+    skos:broader gra:Pattern_of_rectangles ;
+    skos:narrower gra:Chequer ;
+    skos:prefLabel "Pattern of squares"@en .
+
+gra:Sandal_strap a skos:Concept ;
+    skos:broader gra:Sandal ;
+    skos:narrower gra:Bow ;
+    skos:prefLabel "Sandal strap"@en .
+
+gra:Straight a skos:Concept ;
+    skos:broader gra:Beard_style,
+        gra:Hairstyle ;
+    skos:prefLabel "Straight"@en .
+
+gra:Wavy a skos:Concept ;
+    skos:broader gra:Beard_style,
+        gra:Hairstyle ;
+    skos:prefLabel "Wavy"@en .
+
+gra:Cap a skos:Concept ;
+    skos:broader gra:Headgear ;
+    skos:editorialNote "This class comprises depictions of headwear representing caps and leather helmets." ;
+    skos:narrower gra:Earflap,
+        gra:Tip_of_cap ;
+    skos:prefLabel "Cap"@en .
+
+gra:Earing a skos:Concept ;
+    skos:broader gra:Jewellery ;
+    skos:narrower gra:Coil_earing,
+        gra:Rosette_earing ;
+    skos:prefLabel "Earing"@en .
+
+gra:Foot a skos:Concept ;
+    skos:broader gra:Lower_limb ;
+    skos:narrower gra:Ankle,
+        gra:Toe ;
+    skos:prefLabel "Foot"@en .
+
+gra:Fringe a skos:Concept ;
+    skos:broader gra:Clothing_element ;
+    skos:narrower gra:Hatched_fringe,
+        gra:Smooth_fringe ;
+    skos:prefLabel "Fringe"@en .
+
+gra:Hair a skos:Concept ;
+    skos:broader gra:Head ;
+    skos:narrower gra:Facial_hair,
+        gra:Head_hair ;
+    skos:prefLabel "Hair"@en .
+
+gra:Head_hair a skos:Concept ;
+    skos:broader gra:Hair ;
+    skos:editorialNote "This class describes representations of the hair located on the top of the statue's head." ;
+    skos:narrower gra:Fringe_of_hair,
+        gra:Hairstyle ;
+    skos:prefLabel "Head hair"@en .
+
+gra:Helmet a skos:Concept ;
+    skos:broader gra:Headgear ;
+    skos:editorialNote "*** Helmet" ;
+    skos:narrower gra:Conical_helmet,
+        gra:Flattened_helmet ;
+    skos:prefLabel "Helmet"@en .
+
+gra:Jewellery a skos:Concept ;
+    skos:broader gra:Attire ;
+    skos:narrower gra:Earing,
+        gra:Necklace ;
+    skos:prefLabel "Jewellery"@en .
+
+gra:Limb a skos:Concept ;
+    skos:broader gra:Body_Part ;
+    skos:narrower gra:Lower_limb,
+        gra:Upper_limb ;
+    skos:prefLabel "Limb"@en .
+
+gra:Pattern_of_rectangles a skos:Concept ;
+    skos:broader gra:Pattern ;
+    skos:editorialNote "This class describes rectangular shapes of various sizes. Rectangles can serve as backgrounds for other types of decoration and frequently appear as panels on the cuirasses. This class excludes curved rectangular bands with distorted angles, resembling rather straps or types. Those should be treated as Line subclasses and assigned a ExG_Band type." ;
+    skos:narrower gra:Pattern_of_lozenges,
+        gra:Pattern_of_squares ;
+    skos:prefLabel "Pattern of rectangles"@en .
+
+gra:Sandal a skos:Concept ;
+    skos:broader gra:Footwear ;
+    skos:narrower gra:Sandal_sole,
+        gra:Sandal_strap ;
+    skos:prefLabel "Sandal"@en .
+
+gra:Trunk a skos:Concept ;
+    skos:broader gra:Body_Part ;
+    skos:narrower gra:Chest,
+        gra:Waist ;
+    skos:prefLabel "Trunk"@en .
+
+gra:Animal_figure a skos:Concept ;
+    skos:broader gra:Decoration ;
+    skos:narrower gra:Bird,
+        gra:Cattle,
+        gra:Lion ;
+    skos:prefLabel "Animal figure"@en .
+
+gra:Beard a skos:Concept ;
+    skos:broader gra:Facial_hair ;
+    skos:narrower gra:Beard_style,
+        gra:Goatee,
+        gra:Rope_like_line ;
+    skos:prefLabel "Beard"@en .
+
+gra:Body_Part a skos:Concept ;
+    skos:broader crm:E55_Type ;
+    skos:narrower gra:Head,
+        gra:Limb,
+        gra:Trunk ;
+    skos:prefLabel "Body Part"@en .
+
+gra:Clothing a skos:Concept ;
+    skos:broader gra:Attire ;
+    skos:editorialNote "This class comprises depictions of the clothes worn by figures; clothes parts found on the fragments might be difficult to assign to any particular type of garment. In this cases the general class ExG_Clothing should be used." ;
+    skos:narrower gra:Cloak,
+        gra:Cuirass,
+        gra:Tunic ;
+    skos:prefLabel "Clothing"@en .
+
+gra:Eye a skos:Concept ;
+    skos:broader gra:Head ;
+    skos:narrower gra:Eyeball,
+        gra:Eyelid,
+        gra:Iris ;
+    skos:prefLabel "Eye"@en .
+
+gra:Hand a skos:Concept ;
+    skos:broader gra:Upper_limb ;
+    skos:narrower gra:Clenched_fist,
+        gra:Finger,
+        gra:Open_palm ;
+    skos:prefLabel "Hand"@en .
+
+gra:Lower_limb a skos:Concept ;
+    skos:broader gra:Limb ;
+    skos:narrower gra:Foot,
+        gra:Knee,
+        gra:Thigh ;
+    skos:prefLabel "Lower limb"@en .
+
+gra:Mouth a skos:Concept ;
+    skos:broader gra:Head ;
+    skos:narrower gra:Lower_lip,
+        gra:Slit,
+        gra:Upper_lip ;
+    skos:prefLabel "Mouth"@en .
+
+gra:Music_instrument a skos:Concept ;
+    skos:broader gra:Accessory ;
+    skos:editorialNote "***" ;
+    skos:narrower gra:Aulos,
+        gra:Phorbeia,
+        gra:Tambourine ;
+    skos:prefLabel "Music instrument"@en .
+
+gra:Upper_limb a skos:Concept ;
+    skos:broader gra:Limb ;
+    skos:narrower gra:Forearm,
+        gra:Hand,
+        gra:Shoulder ;
+    skos:prefLabel "Upper limb"@en .
+
+gra:Facial_hair a skos:Concept ;
+    skos:broader gra:Hair ;
+    skos:narrower gra:Beard,
+        gra:Eyebrow,
+        gra:Moustache,
+        gra:Sideburn ;
+    skos:prefLabel "Facial hair"@en .
+
+gra:Geometrical_figure a skos:Concept ;
+    skos:broader gra:Decoration ;
+    skos:editorialNote "*** single geometrical figure" ;
+    skos:narrower gra:Circle,
+        gra:Spiral,
+        gra:Square,
+        gra:Triangle ;
+    skos:prefLabel "Geometrical figure"@en .
+
+gra:Line a skos:Concept ;
+    skos:broader gra:Decoration ;
+    skos:narrower gra:Band,
+        gra:Groove,
+        gra:Ridge,
+        gra:Row ;
+    skos:prefLabel "Line"@en .
+
+gra:Beard_style a skos:Concept ;
+    skos:broader gra:Beard ;
+    skos:narrower gra:Curly,
+        gra:Hatched,
+        gra:Layered,
+        gra:Straight,
+        gra:Wavy ;
+    skos:prefLabel "Beard style"@en .
+
+gra:Finger a skos:Concept ;
+    skos:broader gra:Hand ;
+    skos:narrower gra:Index_finger,
+        gra:Middle_finger,
+        gra:Ring_finger,
+        gra:Small_finger,
+        gra:Thumb ;
+    skos:prefLabel "Finger"@en .
+
+gra:Headgear a skos:Concept ;
+    skos:broader gra:Attire ;
+    skos:narrower gra:Cap,
+        gra:Headband,
+        gra:Helmet,
+        gra:Turban,
+        gra:Wreath ;
+    skos:prefLabel "Headgear"@en .
+
+gra:Toe a skos:Concept ;
+    skos:broader gra:Foot ;
+    skos:narrower gra:Great_toe,
+        gra:Long_toe,
+        gra:Middle_toe,
+        gra:Ring_toe,
+        gra:Small_toe ;
+    skos:prefLabel "Toe"@en .
+
+crm:E55_Type a skos:Concept ;
+    skos:narrower gra:Attire,
+        gra:Body_Part,
+        gra:Colour,
+        gra:Decoration,
+        gra:Generic_area,
+        gra:Technique ;
+    skos:prefLabel "E55 Type"@en .
+
+gra:Attire a skos:Concept ;
+    skos:broader crm:E55_Type ;
+    skos:editorialNote "This class comprises all the parts representing fragments of attire, jewellery, head and footgear, along with other accessory items found on the statues." ;
+    skos:narrower gra:Accessory,
+        gra:Clothing,
+        gra:Clothing_element,
+        gra:Footwear,
+        gra:Headgear,
+        gra:Jewellery ;
+    skos:prefLabel "Attire"@en .
+
+gra:Clothing_element a skos:Concept ;
+    skos:broader gra:Attire ;
+    skos:editorialNote "This class comprises depictions of the clothing details the edge, sleeve, tassel, fold, and edge." ;
+    skos:narrower gra:Belt,
+        gra:Cord,
+        gra:Edge,
+        gra:Fringe,
+        gra:Sleeve,
+        gra:Tassel ;
+    skos:prefLabel "Clothing element"@en .
+
+gra:Flower a skos:Concept ;
+    skos:broader gra:Decoration ;
+    skos:editorialNote "* single flower (ex Floral)" ;
+    skos:narrower gra:Bud,
+        gra:Eight_petals,
+        gra:Lotus,
+        gra:Palmette,
+        gra:Rosette,
+        gra:Six_petals ;
+    skos:prefLabel "Flower"@en .
+
+gra:Hairstyle a skos:Concept ;
+    skos:broader gra:Head_hair ;
+    skos:narrower gra:Curly,
+        gra:Hatched,
+        gra:Layered,
+        gra:Straight,
+        gra:Wavy,
+        gra:Wig_shaped ;
+    skos:prefLabel "Hairstyle"@en .
+
+gra:Accessory a skos:Concept ;
+    skos:broader gra:Attire ;
+    skos:editorialNote "This class comprises instances of items depicted on the statues not belonging directly to the attire or body parts; in iconography they are often called attributes, especially if they identify a deity or a saint." ;
+    skos:narrower gra:Kid_goat,
+        gra:Knapsack,
+        gra:Music_instrument,
+        gra:Shield,
+        gra:Sword,
+        gra:Sword_belt,
+        gra:Vase ;
+    skos:prefLabel "Accessory"@en .
+
+gra:Linear_pattern a skos:Concept ;
+    skos:broader gra:Pattern ;
+    skos:narrower gra:Feathered_pattern,
+        gra:Herring_bone,
+        gra:Ladder_pattern,
+        gra:Line_pattern,
+        gra:Oblique_pattern,
+        gra:Radial_pattern,
+        gra:Striped_band,
+        gra:V_pattern ;
+    skos:prefLabel "Linear pattern"@en .
+
+gra:Technique a skos:Concept ;
+    skos:broader crm:E55_Type ;
+    skos:narrower gra:Applied,
+        gra:Hand_made,
+        gra:Incised,
+        gra:Mould_made,
+        gra:Painted,
+        gra:Slipped,
+        gra:Stamped,
+        gra:Wheel_made ;
+    skos:prefLabel "Technique"@en .
+
+gra:Colour a skos:Concept ;
+    skos:broader crm:E55_Type ;
+    skos:narrower gra:Black,
+        gra:Buff,
+        gra:Cream,
+        gra:Orange,
+        gra:Pink,
+        gra:Purple,
+        gra:Red,
+        gra:White,
+        gra:Yellow ;
+    skos:prefLabel "Colour"@en .
+
+gra:Head a skos:Concept ;
+    skos:broader gra:Body_Part ;
+    skos:narrower gra:Cheek,
+        gra:Chin,
+        gra:Ear,
+        gra:Eye,
+        gra:Forehead,
+        gra:Hair,
+        gra:Mouth,
+        gra:Neck,
+        gra:Nose,
+        gra:Temple ;
+    skos:prefLabel "Head"@en .
+
+gra:Pattern a skos:Concept ;
+    skos:broader gra:Decoration ;
+    skos:editorialNote "Questo era il precedente Shape" ;
+    skos:narrower gra:C_pattern,
+        gra:Concentric_pattern,
+        gra:Floral_band,
+        gra:Guilloche,
+        gra:Linear_pattern,
+        gra:Pattern_of_chevrons,
+        gra:Pattern_of_circles,
+        gra:Pattern_of_curves,
+        gra:Pattern_of_rectangles,
+        gra:Pattern_of_scales,
+        gra:Pattern_of_spirals,
+        gra:Pattern_of_triangles ;
+    skos:prefLabel "Pattern"@en .
+
+gra:Decoration a skos:Concept ;
+    skos:broader crm:E55_Type ;
+    skos:narrower gra:Animal_figure,
+        gra:Animal_frieze,
+        gra:Bead,
+        gra:Button,
+        gra:Eye_decor,
+        gra:Flower,
+        gra:Geometrical_figure,
+        gra:Human_figure,
+        gra:Line,
+        gra:Meander,
+        gra:Mythological_figure,
+        gra:Mythological_scene,
+        gra:Pattern,
+        gra:Solomon_knot,
+        gra:Speck ;
+    skos:prefLabel "Decoration"@en .
+

@@ -1,0 +1,22 @@
+[
+  {
+    "container_id": "http://localhost:10214/container/Uncategorized/397851eb-e2f1-44ef-aec7-4bcc3efe157a",
+    "uri": "http://collection.britishmuseum.org/id/object/MCC6933",
+    "label": "GOLD CASED KEYLESS LEVER POCKET WATCH\n\nCASE"
+  },
+  {
+    "container_id": "http://localhost:10214/container/Uncategorized/e7a7ddc1-49df-499c-93a2-13eab1b1d6d8",
+    "uri": "http://collection.britishmuseum.org/id/object/CBA266435",
+    "label": "Banknote"
+  },
+  {
+    "container_id": "http://localhost:10214/container/Uncategorized/b3afb922-5d06-4882-895d-82b8f2d82748",
+    "uri": "http://collection.britishmuseum.org/id/object/COC231583",
+    "label": "Coronation medal of Ghazi ud Din Haidar"
+  },
+  {
+    "container_id": "http://localhost:10214/container/Uncategorized/1c0b6735-f7dc-4f91-8e23-cca553a16900",
+    "uri": "http://collection.britishmuseum.org/id/object/JCF8939",
+    "label": "Album of 9 fan paintings"
+  }
+]

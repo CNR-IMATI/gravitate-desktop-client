@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!-- General buttons -->
+    <string name="resolution-selector">You can change the resolution of the 3D model by selecting an option from this menu</string>
+    <string name="property-selector">You change the active geometric property by choosing one entry from this list. Only already loaded properties are listed.</string>
+    <string name="annotation-checkbox">Enable-disable the annotations</string>
+    <string name="facet-checkbox">Enable/disable the facet visualization</string>
+    <string name="bounding-box-checkbox">Enable/disable the minimal bounding box</string>
+    <string name="menu-geom-char" xmlns="http://www.w3.org/1999/xhtml">This menu contains a set of <a href="help://gravitate-manual/geom-char">geometric characterization</a> tools.</string>
+    <string name="tool-load-facets" xmlns="http://www.w3.org/1999/xhtml">Download and visualize the facets in which the 3D model has been segmented.</string>
+<!-- Fragment view -->
+    <string name="tool-load-annotations">Download and visualize the annotations for the currently loaded 3D models</string>
+    <string name="tool-feature-recognition" xmlns="http://www.w3.org/1999/xhtml">Runs the <a href="help://gravitate-manual/feature-recognition">Feature Recognition algorithm</a> on the currently loaded 3D model</string>
+    <string name="tool-annotation-mode" xmlns="http://www.w3.org/1999/xhtml">Enable/disable the annotation mode. See the <a href="help://gravitate-manual/annotation">user manual</a> for more information on annotation.</string>
+    <string name="menu-data">This menu contains options for browsing/loading data from the platform back-end</string>
+    <string name="menu-load-vocabulary">This menu allows to load a controlled vocabulary to be used for part-based annotation of 3D models.</string>
+<!-- Groups view -->
+    <string name="tool-add-note">Adds a text note to the current group.</string>
+    <string name="tool-create-group">Creates a new group</string>
+    <string name="tool-add-to-clipboard">Adds the currently selected object to the Clipboard</string>
+</resources>
+

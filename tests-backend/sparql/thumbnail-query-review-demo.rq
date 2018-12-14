@@ -1,0 +1,11 @@
+PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
+PREFIX rso: <http://www.researchspace.org/ontology/>
+PREFIX grav: <http://gravitate-project.eu/id/object/>
+PREFIX bm: <http://collection.britishmuseum.org/id/object/>
+
+SELECT ?id ?thumbnail WHERE
+{
+  ?id rso:PX_has_main_representation ?thumbnail .
+  OPTIONAL { ?thumbnail crm:P2_has_type grav:thumbnail_image . }
+VALUES ?id { bm:GAA58897 bm:GAA58895 bm:GAA58912 bm:GAA58908 bm:GAA58907 bm:GAA58922 }
+}

@@ -1,0 +1,5 @@
+dist
+gravitate-client
+*.AppImage
+deploy-conf.cmd
+!libs/*.dll

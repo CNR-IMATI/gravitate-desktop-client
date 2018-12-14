@@ -1,0 +1,20 @@
+PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
+PREFIX rso: <http://www.researchspace.org/ontology/>
+PREFIX rso2: <http://www.researchspace.org/ontology#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX grav: <http://gravitate-project.eu/>
+SELECT ?id ?file ?type ?value ?unit
+{
+    {
+       ?id crm:P138i_has_representation ?file
+    }
+    UNION
+    {
+        ?id crm:P39i_was_measured_by ?event .
+        ?event crm:P40_observed_dimension ?file .
+        OPTIONAL { ?file crm:P90_has_value ?value }
+        OPTIONAL { ?file crm:P91_has_unit ?unit }
+    }
+    OPTIONAL { ?file crm:P2_has_type ?type . }
+    VALUES ?id { <http://www.ashmolean.org/id/object/AN1912.147> }
+}

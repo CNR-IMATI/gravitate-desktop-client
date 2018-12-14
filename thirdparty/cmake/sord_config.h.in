@@ -1,0 +1,8 @@
+/* WARNING! All changes made to this file will be lost! */
+
+#ifndef W_SORD_CONFIG_H
+#define W_SORD_CONFIG_H
+
+#cmakedefine SORD_VERSION "@SORD_VERSION@"
+
+#endif /* W_SORD_CONFIG_H */

@@ -1,0 +1,23 @@
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "http://gravitate-1.cytera.cyi.ac.cy/annotations/anno1",
+    "type": "Annotation",
+    "created": "2015-01-31T12:03:45Z",
+    "body": {
+        "id": "http://gravitate-project.eu/scheme/Eye",
+        "type": "skos:Concept"
+    },
+    "target": {
+        "@context": "http://gravitate-project.eu/scheme/threedanno.jsonld",
+        "type": "SpecificResource",
+        "source": {
+            "id": "https://gravitate-1.cytera.cyi.ac.cy/repository/Cyprus_Museum/D_292_clean.ply",
+            "type": "Dataset",
+            "format": "model/mesh"
+        },
+        "selector": {
+            "id": "https://gravitate-1.cytera.cyi.ac.cy/repository/Cyprus_Museum/D_292_clean/Parts/selector1.json",
+            "type": "ThreeDMeshSurfaceSelector"
+        }
+    }
+}

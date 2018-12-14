@@ -1,0 +1,26 @@
+{
+  "name": "Test name",
+  "status": "FINISHED",
+  "exitCode": "SUCCESS",
+  "created": 1482416117455,
+  "updated": 1482416261639,
+  "finished": 1482416261639,
+  "algorithm": {
+    "name": "Image shuffler",
+    "description": "Takes a BMP image and shuffles it into N pieces",
+    "command": "docker run --rm -v /home/ubuntu/itinnovation/remote-scheduling-service/algorithms/sample_c:/usr/src/myapp -w /usr/src/myapp gcc:4.9 ./test",
+    "input": {
+      "Image file": "Path to BMP image"
+    },
+    "output": {
+      "Image file": "Path to shuffled BMP image"
+    },
+    "parameters": {
+      "Command line (optional)": "Integer N, number of pieces to slit the file into and shuffle",
+      "Default": "2"
+    },
+    "id": "585bdf79a7b11b0007f7b71c"
+  },
+  "metadata": {},
+  "id": "585bdff5a7b11b0007f7b724"
+}

@@ -1,0 +1,30 @@
+{
+  "culturalHeritageObject": {
+    "name": "Venus de Milo",
+    "inventoryNumber": "123",
+    "type": "test",
+    "material": "test material",
+    "dating": "7-5BC",
+    "provenance": "Sample provenance",
+    "descriptionOfTheObject": "Sample description",
+    "conservationPlace": "Sample conservation place",
+    "rights": "All rights reserved, 2017"
+  },
+  "culturalHeritageCollection": {
+    "name": "Salamis collection",
+    "descriptionOfTheCollection": "Sample collection description",
+    "conservationPlaceOfTheCollection": "British Museum"
+  },
+  "3dModel": {
+    "3dModelType": "Triangulated mesh",
+    "numberOfVertices": "159888",
+    "isPartOf": "241 digitized fragment from the Salamis collection",
+    "acquisition": {
+      "date": "25 July 2017",
+      "locationOfTheAcquisition": "British Museum",
+      "institutionAuthor": "Cyprus Institute",
+      "acquisitionType": "Photogammetry or Scanner"
+    },
+    "processing": "Sample processing"
+  }
+}

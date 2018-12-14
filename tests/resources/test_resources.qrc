@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/">
+        <file>data/sample_curvature.txt</file>
+        <file>data/sample-extra-metadata.csv</file>
+        <file>data/sample_cielab.txt</file>
+        <file>data/sample-facet.fct</file>
+        <file>images/test-image-128.png</file>
+        <file>data/sample-mbb.json</file>
+        <file>api/sample-metadata-reply.json</file>
+        <file>data/sample-features.json</file>
+        <file>data/sample-help-strings.xml</file>
+        <file>api/sample-job-started-reply.json</file>
+        <file>api/sample-job-finished-reply.json</file>
+        <file>data/sample-reassembly.json</file>
+        <file>annotation/webannotation-sample.jsonld</file>
+        <file>api/feature-extraction-failure-log.txt</file>
+        <file>api/feature-extraction-success-log.txt</file>
+        <file>api/job-no-output-found.txt</file>
+    </qresource>
+</RCC>

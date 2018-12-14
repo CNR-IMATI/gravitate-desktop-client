@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FragmentViewMain</class>
+ <widget class="QMainWindow" name="FragmentViewMain">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QSplitter" name="splitter">
+      <property name="styleSheet">
+       <string notr="true">QSplitter::handle {
+	background-color: #999999;
+	margin-right: 2px;
+    margin-left: 2px;
+	height: 1px;
+}</string>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <widget class="PartonomyWidget" name="partonomyWidget" native="true">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="MinimumExpanding" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+      </widget>
+      <widget class="InspectionItemWidget" name="itemWidget" native="true"/>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <action name="actionLoad_Mean_Curvature">
+   <property name="text">
+    <string>Mean Curvature</string>
+   </property>
+   <property name="toolTip">
+    <string>Load Mean Curvature</string>
+   </property>
+  </action>
+  <action name="actionLoad_CHAP">
+   <property name="text">
+    <string>Load Cultural Heritage Artefact Partonomy</string>
+   </property>
+  </action>
+  <action name="actionLoad_Shape_Index">
+   <property name="text">
+    <string>Shape Index</string>
+   </property>
+   <property name="toolTip">
+    <string>Load Shape Index</string>
+   </property>
+  </action>
+  <action name="actionLoad_Colorimetric">
+   <property name="text">
+    <string>Colorimetric Info</string>
+   </property>
+   <property name="toolTip">
+    <string>Loads the L channel of the Lab space</string>
+   </property>
+  </action>
+  <action name="actionLoadMinimal_Bounding_Box">
+   <property name="text">
+    <string>Minimal Bounding Box</string>
+   </property>
+   <property name="toolTip">
+    <string>Minimal Bounding Box</string>
+   </property>
+  </action>
+  <action name="actionAnnotation_Mode">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Annotation Mode</string>
+   </property>
+   <property name="toolTip">
+    <string>Toggle the annotation mode</string>
+   </property>
+  </action>
+  <action name="actionLoadFacets">
+   <property name="text">
+    <string>Load Facets</string>
+   </property>
+   <property name="toolTip">
+    <string>Load faceting file</string>
+   </property>
+  </action>
+  <action name="actionLoad_file_from_disk">
+   <property name="text">
+    <string>Load file from disk</string>
+   </property>
+  </action>
+  <action name="actionLoad_SDF">
+   <property name="text">
+    <string>Shape Diameter Function</string>
+   </property>
+   <property name="toolTip">
+    <string>Load Shape Diameter Function</string>
+   </property>
+  </action>
+  <action name="actionDelete_Annotation">
+   <property name="icon">
+    <iconset resource="../../../resources/resources.qrc">
+     <normaloff>:/images/noun_1070424_cc.png</normaloff>:/images/noun_1070424_cc.png</iconset>
+   </property>
+   <property name="text">
+    <string>Delete Annotation</string>
+   </property>
+  </action>
+  <action name="actionAutomatic_Feature_Recognition">
+   <property name="text">
+    <string>Automatic Feature Recognition</string>
+   </property>
+  </action>
+  <action name="actionFeature_Extraction_Demo">
+   <property name="text">
+    <string>Feature Extraction Demo</string>
+   </property>
+  </action>
+  <action name="actionSave_Feature_Extraction_Output">
+   <property name="text">
+    <string>Save Feature Extraction Output</string>
+   </property>
+  </action>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>PartonomyWidget</class>
+   <extends>QWidget</extends>
+   <header>partonomywidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>InspectionItemWidget</class>
+   <extends>QWidget</extends>
+   <header>inspection/inspectionitemwidget.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="../../../resources/resources.qrc"/>
+  <include location="../../../resources/resources.qrc"/>
+  <include location="../../../resources/resources.qrc"/>
+  <include location="../../../resources/resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>
